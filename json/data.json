@@ -1,0 +1,284 @@
+{
+  "Semester": 
+  [
+    {
+      "id": "Summer_2018",
+      "name": "Summer 2018",
+      "Course":
+      [
+        {
+          "id": "COMP_3350",
+          "name": "COMP 3350",
+          "Category": [
+            {
+              "id": "Assignments",
+              "name": "Assignemnts",
+              "weight": 50,
+              "Subcategory": [
+                {
+                  "id": "Assignment 1",
+                  "name": "Assignment 1",
+                  "weight": 25,
+                  "mark": 20,
+                  "total": 20,
+                  "percent": 100,
+                  "achieved": 25
+                }, {
+                  "id": "Assignment 2",
+                  "name": "Assignment 2",
+                  "weight": 25,
+                  "mark": 20,
+                  "total": 20,
+                  "percent": 100,
+                  "achieved": 25
+                }
+              ]
+            }, {
+              "id": "Exams",
+              "name": "Exams",
+              "weight": 50,
+              "Subcategory": [
+                {
+                  "id": "Finals",
+                  "name": "Finals",
+                  "weight": 50,
+                  "mark": 20,
+                  "total": 20,
+                  "percent": 100,
+                  "achieved": 50
+                }
+              ]
+            }
+          ]
+        }, {
+          "id": "COMP_3010",
+          "name": "COMP 3010",
+          "Category": [
+            {
+              "id": "Assignments",
+              "name": "Assignemnts",
+              "weight": 50,
+              "Subcategory": [
+                {
+                  "id": "Assignment 1",
+                  "name": "Assignment 1",
+                  "weight": 25,
+                  "mark": 20,
+                  "total": 20,
+                  "percent": 100,
+                  "achieved": 25
+                }, {
+                  "id": "Assignment 2",
+                  "name": "Assignment 2",
+                  "weight": 25,
+                  "mark": 20,
+                  "total": 20,
+                  "percent": 100,
+                  "achieved": 25
+                }
+              ]
+            }, {
+              "id": "Exams",
+              "name": "Exams",
+              "weight": 50,
+              "Subcategory": [
+                {
+                  "id": "Finals",
+                  "name": "Finals",
+                  "weight": 50,
+                  "mark": 20,
+                  "total": 20,
+                  "percent": 100,
+                  "achieved": 50
+                }
+              ]
+            }
+          ]
+        }, {
+          "id": "COMP_3150",
+          "name": "COMP 3150",
+          "Category": [
+            {
+              "id": "Assignments",
+              "name": "Assignemnts",
+              "weight": 50,
+              "Subcategory": [
+                {
+                  "id": "Assignment 1",
+                  "name": "Assignment 1",
+                  "weight": 25,
+                  "mark": 20,
+                  "total": 20,
+                  "percent": 100,
+                  "achieved": 25
+                }, {
+                  "id": "Assignment 2",
+                  "name": "Assignment 2",
+                  "weight": 25,
+                  "mark": 20,
+                  "total": 20,
+                  "percent": 100,
+                  "achieved": 25
+                }
+              ]
+            }, {
+              "id": "Exams",
+              "name": "Exams",
+              "weight": 50,
+              "Subcategory": [
+                {
+                  "id": "Finals",
+                  "name": "Finals",
+                  "weight": 50,
+                  "mark": 20,
+                  "total": 20,
+                  "percent": 100,
+                  "achieved": 50
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }, {
+      "id": "Fall_2018",
+      "name": "Fall 2018",
+      "Courses":
+      [
+        {
+          "id": "COMP_3490",
+          "name": "COMP 3490",
+          "Category": [
+            {
+              "id": "Assignments",
+              "name": "Assignemnts",
+              "weight": 50,
+              "Subcategory": [
+                {
+                  "id": "Assignment 1",
+                  "name": "Assignment 1",
+                  "weight": 25,
+                  "mark": 20,
+                  "total": 20,
+                  "percent": 100,
+                  "achieved": 25
+                }, {
+                  "id": "Assignment 2",
+                  "name": "Assignment 2",
+                  "weight": 25,
+                  "mark": 20,
+                  "total": 20,
+                  "percent": 100,
+                  "achieved": 25
+                }
+              ]
+            }, {
+              "id": "Exams",
+              "name": "Exams",
+              "weight": 50,
+              "Subcategory": [
+                {
+                  "id": "Finals",
+                  "name": "Finals",
+                  "weight": 50,
+                  "mark": 20,
+                  "total": 20,
+                  "percent": 100,
+                  "achieved": 50
+                }
+              ]
+            }
+          ]
+        }, {
+          "id": "COMP_3380",
+          "name": "COMP 3380",
+          "Category": [
+            {
+              "id": "Assignments",
+              "name": "Assignemnts",
+              "weight": 50,
+              "Subcategory": [
+                {
+                  "id": "Assignment 1",
+                  "name": "Assignment 1",
+                  "weight": 25,
+                  "mark": 20,
+                  "total": 20,
+                  "percent": 100,
+                  "achieved": 25
+                }, {
+                  "id": "Assignment 2",
+                  "name": "Assignment 2",
+                  "weight": 25,
+                  "mark": 20,
+                  "total": 20,
+                  "percent": 100,
+                  "achieved": 25
+                }
+              ]
+            }, {
+              "id": "Exams",
+              "name": "Exams",
+              "weight": 50,
+              "Subcategory": [
+                {
+                  "id": "Finals",
+                  "name": "Finals",
+                  "weight": 50,
+                  "mark": 20,
+                  "total": 20,
+                  "percent": 100,
+                  "achieved": 50
+                }
+              ]
+            }
+          ]
+        }, {
+          "id": "COMP_3020",
+          "name": "COMP 3020",
+          "Category": [
+            {
+              "id": "Assignments",
+              "name": "Assignemnts",
+              "weight": 50,
+              "Subcategory": [
+                {
+                  "id": "Assignment 1",
+                  "name": "Assignment 1",
+                  "weight": 25,
+                  "mark": 20,
+                  "total": 20,
+                  "percent": 100,
+                  "achieved": 25
+                }, {
+                  "id": "Assignment 2",
+                  "name": "Assignment 2",
+                  "weight": 25,
+                  "mark": 20,
+                  "total": 20,
+                  "percent": 100,
+                  "achieved": 25
+                }
+              ]
+            }, {
+              "id": "Exams",
+              "name": "Exams",
+              "weight": 50,
+              "Subcategory": [
+                {
+                  "id": "Finals",
+                  "name": "Finals",
+                  "weight": 50,
+                  "mark": 20,
+                  "total": 20,
+                  "percent": 100,
+                  "achieved": 50
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
