@@ -34,7 +34,7 @@ var jsonData = {0};
 print("""
 onloadEvent();
 function onloadEvent() {
-    if(isEmpty(jsonData)) {
+    if(!(jsonData)) {
         return;
     }
     var semester = document.getElementById('semBtnGroup');
