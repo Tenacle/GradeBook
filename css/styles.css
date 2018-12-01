@@ -1,29 +1,82 @@
+body{
+    margin: unset;
+}
+
+div {
+    text-align: center;
+    font-family: sans-serif;
+    width:200px;
+    height:500px;
+    float: left;
+}
+
+button{
+    margin:2px;
+    text-align: left;
+    padding: 10px 10px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    cursor: pointer;
+}
+
+.button:active{
+    float: left;
+    transition: 0.3s;
+    border-radius: 4px;
+    border-right:none;
+}
+
+.button:hover{
+    border-top-right-radius:0px;
+    border-bottom-right-radius: 0px;
+
+}
+
 .semesterCol{
-    /* width: 200px; */
-    background-color: tomato;
+    background-color: coral;
     float: left;
 }
 
 .semesterCol button {
-    display: block;
-    background-color: inherit;
-    color: black;
-    padding: 22px 16px;
-    width: 100%;
-    border: none;
-    outline: none;
-    text-align: left;
-    cursor: pointer;
-    transition: 0.3s;
+    background-color: tomato;
+    border-color: tomato;
 }
 
 .semesterCol button:hover {
-    background-color: rgb(138, 54, 39);
+    background-color: tomato;
+    border-right: 10px solid antiquewhite;
+    transition:0.3s;
+
 }
 
-.courseCol{
-    /* width: 200px; */
+.semesterCol button:active{
     background-color: antiquewhite;
-    float: left;
+
 }
+
+
+.courseCol{
+    border-right: 6px;
+    background-color: antiquewhite;
+}
+
+.courseCol button {
+    background-color: gainsboro;
+    border-color: gainsboro;
+}
+
+.courseCol button:hover {
+    background-color: gainsboro;
+    border-right: 10px solid blue;
+    border-top-right-radius:0px;
+    border-bottom-right-radius: 0px;
+    transition:0.3s;
+}
+
+.courseCol button:active {
+    background-color: blue;
+}
+
+
 
