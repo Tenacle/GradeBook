@@ -16,7 +16,15 @@ print("""
 <html>
 <body>
 
-EVERYTHING FROM PAUL HERE
+EVERYTHING FROM PAUL HERE 
+
+</br>
+</br>
+
+<div id=semBtnGroup></div>
+
+</br>
+</br>
 
 
 """)
@@ -24,7 +32,29 @@ print(jsonDataButtons)
 
 print("""
 <script type="text/javascript">
-var jsonData = JSON.parse({0});
+var jsonData = {0};
+
+function onloadEvent() {
+    if(isEmpty(jsonData)) {
+        return;
+    }
+    var semester = document.getElementById('semBtnGroup');
+    semester.innerHTML = '';
+    for( var i = 0; var < jsonData['Semester'].length; i++) {
+
+        var btn = document.createElement("button");
+        btn.value = jsonData['Semester'][i];
+        semester.appendChild(btn);
+
+    }
+
+
+
+    var course = document.getElementById('courseBtnGroup');
+    var category = document.getElementById('categoryBtnGroup');
+    var subcategory = document.getElementById('subCategoryBtnGroup');
+
+}
 
 </script>
 </body>
