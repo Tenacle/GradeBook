@@ -5,8 +5,8 @@ body{
 div {
     text-align: center;
     font-family: sans-serif;
-    width:200px;
-    height:500px;
+    width:170px;
+    height: 1000px;
     float: left;
 }
 
@@ -33,50 +33,62 @@ button{
 
 }
 
+/* Semester Colum */
+
 .semesterCol{
-    background-color: coral;
+    background-color: #ff6f00;
     float: left;
 }
 
 .semesterCol button {
-    background-color: tomato;
-    border-color: tomato;
+    background-color: #ff5722;
+    border-color: #ff5722;
 }
 
 .semesterCol button:hover {
-    background-color: tomato;
-    border-right: 10px solid antiquewhite;
+    background-color: #ff5722;
+    border-right: 10px solid #ffa000;
     transition:0.3s;
 
 }
 
 .semesterCol button:active{
-    background-color: antiquewhite;
+    background-color: #ffa000;
 
 }
 
 
+/* Courses Column */
+
 .courseCol{
-    border-right: 6px;
-    background-color: antiquewhite;
+    background-color: #ffa000;
 }
 
 .courseCol button {
-    background-color: gainsboro;
-    border-color: gainsboro;
+    background-color: #ff8f00;
+    border-color: #ff8f00;
 }
 
 .courseCol button:hover {
-    background-color: gainsboro;
-    border-right: 10px solid blue;
+    background-color: #ff8f00;
+    border-right: 10px solid #ffb300;
     border-top-right-radius:0px;
     border-bottom-right-radius: 0px;
     transition:0.3s;
 }
 
 .courseCol button:active {
-    background-color: blue;
+    background-color: #ffb300;
 }
 
 
+/* Category Column */
 
+.categoryCol{
+    background-color: #ffb300;
+}
+
+.categoryCol button{
+    background-color: #ffa000;
+    border-color: #ffa000;
+}
