@@ -2,34 +2,31 @@
 import sys
 from os import environ
 import json
-semesterList = {}
-semesterListButtons = ''
+jsonData = {}
+jsonDataButtons = ''
 courseList = []
 with open('../json/data.json') as f:
-    semesterList = json.load(f)
-if semesterList:
-    for data in semesterList['Semester']:
-        semesterListButtons += '<button id=\'' + data['id'] + '\'>' + data['name'] + '</button></br>'
-        courseList.append(data['id'])
+    jsonData = json.load(f)
+if jsonData:
+    for data in jsonData['Semester']:
+        jsonDataButtons += '<button id=\'' + data['id'] + '\'>' + data['name'] + '</button></br>'
 
-categoryListButtons = ''
-subcategoryList = {}
-courseListButtons = ''
-
-# hello world
 print("Content-Type: text/html\n\n")
 print("""
 <html>
-    <header><title>Hello</title></header>
 <body>
-<form>
+
+EVERYTHING FROM PAUL HERE
+
+
 """)
-print(semesterListButtons)
-print(courseListButtons)
+print(jsonDataButtons)
 
 print("""
-</form>
-    <h2>hello world</h2>
+<script type="text/javascript">
+var jsonData = JSON.parse({0});
+
+</script>
 </body>
 </html>
-""")
+""".format(jsonData))
