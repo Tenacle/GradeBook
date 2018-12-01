@@ -26,21 +26,23 @@ EVERYTHING FROM PAUL HERE
 </br>
 </br>
 
+""")
+print("""
 <script type="text/javascript">
 var jsonData = {0};
 """.format(jsonData))
 print("""
-
+onloadEvent();
 function onloadEvent() {
     if(isEmpty(jsonData)) {
         return;
     }
     var semester = document.getElementById('semBtnGroup');
     semester.innerHTML = '';
-    for( var i = 0; var < jsonData['Semester'].length; i++) {
+    for( var i = 0; i < jsonData['Semester'].length; i++) {
 
         var btn = document.createElement("button");
-        btn.value = jsonData['Semester'][i];
+        btn.innerHTML = jsonData['Semester'][i]['name'];
         semester.appendChild(btn);
 
     }
