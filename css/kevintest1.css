@@ -1,0 +1,15 @@
+#intro{
+    font-size: 30px;
+    color: blue;
+}
+
+div{
+    background-color: bisque;
+    border-style: solid;
+    border-color: black;
+
+    padding: 20px;
+    width: 50%;
+    height: auto;
+
+}
