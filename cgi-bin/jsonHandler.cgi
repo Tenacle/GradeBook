@@ -26,13 +26,10 @@ EVERYTHING FROM PAUL HERE
 </br>
 </br>
 
-
-""")
-print(jsonDataButtons)
-
-print("""
 <script type="text/javascript">
 var jsonData = {0};
+""".format(jsonData))
+print("""
 
 function onloadEvent() {
     if(isEmpty(jsonData)) {
@@ -59,4 +56,4 @@ function onloadEvent() {
 </script>
 </body>
 </html>
-""".format(jsonData))
+""")
