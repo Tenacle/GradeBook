@@ -2,10 +2,14 @@ body{
     margin: unset;
 }
 
-div {
+.gadesTable {
+    width: 100%;
+}
+
+.gradesTable div{
     text-align: center;
     font-family: sans-serif;
-    width:170px;
+    width:25%;
     height: 1000px;
     float: left;
 }
@@ -13,8 +17,8 @@ div {
 button{
     margin:2px;
     text-align: left;
-    padding: 10px 10px;
-    width: 100%;
+    padding: 13px 10px;
+    width: 400%;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     cursor: pointer;
@@ -33,7 +37,7 @@ button{
 
 }
 
-/* Semester Colum */
+/****************** Semester Colum ******************/
 
 .semesterCol{
     background-color: #ff6f00;
@@ -58,7 +62,7 @@ button{
 }
 
 
-/* Courses Column */
+/****************** Courses Column ******************/
 
 .courseCol{
     background-color: #ffa000;
@@ -72,8 +76,6 @@ button{
 .courseCol button:hover {
     background-color: #ff8f00;
     border-right: 10px solid #ffb300;
-    border-top-right-radius:0px;
-    border-bottom-right-radius: 0px;
     transition:0.3s;
 }
 
@@ -82,7 +84,7 @@ button{
 }
 
 
-/* Category Column */
+/****************** Category Column ******************/
 
 .categoryCol{
     background-color: #ffb300;
@@ -91,4 +93,24 @@ button{
 .categoryCol button{
     background-color: #ffa000;
     border-color: #ffa000;
+}
+
+.categoryCol button:hover{
+    border-right: 10px solid #ffc107;
+}
+
+.categoryCol button:active{
+    background-color: #ffc107;
+}
+
+
+/****************** Sub Category Column ******************/
+
+.subCategoryCol{
+    background-color: #ffc107;
+}
+
+.subCategoryCol button{
+    background-color: #ffd54f;
+    border-color:#ffd54f;
 }
